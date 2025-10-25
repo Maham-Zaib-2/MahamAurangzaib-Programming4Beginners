@@ -12,8 +12,8 @@ int main()
         scanf("%d", arr + i);
     }
     for(int i = num - 1; i >= 0; i--) {
-        printf("%d", *(arr + i));  // same as arr[i]
-        if(i != 0) printf(" ");    // avoid trailing space
+        printf("%d", *(arr + i));  
+        if(i != 0) printf(" ");   
     }
 
     printf("\n");
